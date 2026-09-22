@@ -8,3 +8,61 @@
 2026-09-16 10:40:52,463 | INFO | Input='at a task' Intent=UNKNOWN Task=None Due=None
 2026-09-16 10:48:28,028 | INFO | Input='Add complete NLP assignment tomorrow' Intent=ADD_TODO Task='complete nlp assignment' Due='2026-09-17'
 2026-09-16 10:56:34,552 | INFO | Input='add complete NLP assignment tomorrow' Intent=ADD_TODO Task='complete nlp assignment' Due='2026-09-17'
+2026-09-22 10:56:27,901 | INFO | Input='should I wanna part' Intent=UNKNOWN Task=None Due=None
+2026-09-22 10:56:42,823 | INFO | Input='add a tas' Intent=ADD_TODO Task='tas' Due=None
+2026-09-22 10:56:48,680 | ERROR | Microphone failure
+Traceback (most recent call last):
+  File "/Users/likithnaidu/Desktop/voice_todo_assistant/app/main.py", line 132, in run_voice_mode
+    text = stt.listen()
+  File "/Users/likithnaidu/Desktop/voice_todo_assistant/app/voice/speech_to_text.py", line 21, in listen
+    audio = self.recognizer.listen(source, timeout=5, phrase_time_limit=10)
+  File "/opt/anaconda3/lib/python3.13/site-packages/speech_recognition/__init__.py", line 460, in listen
+    for a in result:
+             ^^^^^^
+  File "/opt/anaconda3/lib/python3.13/site-packages/speech_recognition/__init__.py", line 490, in _listen
+    raise WaitTimeoutError("listening timed out while waiting for phrase to start")
+speech_recognition.exceptions.WaitTimeoutError: listening timed out while waiting for phrase to start
+2026-09-22 10:56:57,480 | INFO | Input='workshop task' Intent=UNKNOWN Task=None Due=None
+2026-09-22 10:59:34,690 | INFO | Input='add a tas' Intent=ADD_TODO Task='tas' Due=None
+2026-09-22 10:59:45,580 | INFO | Input='help help help' Intent=HELP Task=None Due=None
+2026-09-22 10:59:49,430 | INFO | Input='127' Intent=UNKNOWN Task=None Due=None
+2026-09-22 10:59:55,749 | INFO | Input='steady DSA' Intent=UNKNOWN Task=None Due=None
+2026-09-22 11:00:06,300 | INFO | Input='add study' Intent=ADD_TODO Task='study' Due=None
+2026-09-22 14:55:43,060 | INFO | Input='im gonna attend a meet' Intent=UNKNOWN Task=None Due=None
+2026-09-22 14:56:23,317 | INFO | Input='add task ,meeting today' Intent=ADD_TODO Task='meeting' Due='2026-09-22'
+2026-09-22 14:57:42,973 | INFO | Input='3' Intent=UNKNOWN Task=None Due=None
+2026-09-22 14:57:48,830 | INFO | Input='hlp' Intent=UNKNOWN Task=None Due=None
+2026-09-22 14:57:50,395 | INFO | Input='help' Intent=HELP Task=None Due=None
+2026-09-22 15:02:10,090 | INFO | Input='add dsa tomorrow' Intent=ADD_TODO Task='dsa' Due='2026-09-23'
+2026-09-22 15:08:42,843 | INFO | Input='add DSA task tomorrow' Intent=ADD_TODO Task='dsa task' Due='2026-09-23'
+2026-09-22 15:09:06,259 | INFO | Input='me to delicious share' Intent=UNKNOWN Task=None Due=None
+2026-09-22 15:09:20,600 | INFO | Input='show task' Intent=LIST_TODOS Task=None Due=None
+2026-09-22 15:09:38,686 | INFO | Input='DSL Hospital' Intent=UNKNOWN Task=None Due=None
+2026-09-22 15:09:49,870 | INFO | Input='delete DSA tas' Intent=DELETE_TODO Task='dsa tas' Due=None
+2026-09-22 15:09:59,452 | INFO | Input='delete DSA task' Intent=DELETE_TODO Task='dsa task' Due=None
+2026-09-22 17:31:38,300 | INFO | Input='show my tasks' Intent=LIST_TODOS Task=None Due=None
+2026-09-22 17:31:42,723 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:31:50,764 | INFO | Input='help' Intent=HELP Task=None Due=None
+2026-09-22 17:32:03,237 | INFO | Input='python' Intent=UNKNOWN Task=None Due=None
+2026-09-22 17:32:09,936 | INFO | Input='add dsa' Intent=ADD_TODO Task='dsa' Due=None
+2026-09-22 17:32:11,923 | INFO | Input='add dsa' Intent=ADD_TODO Task='dsa' Due=None
+2026-09-22 17:32:14,587 | INFO | Input='add dsa task' Intent=ADD_TODO Task='dsa task' Due=None
+2026-09-22 17:32:15,285 | INFO | Input='add dsa task' Intent=ADD_TODO Task='dsa task' Due=None
+2026-09-22 17:32:15,425 | INFO | Input='add dsa task' Intent=ADD_TODO Task='dsa task' Due=None
+2026-09-22 17:35:01,083 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:35:02,803 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:35:03,667 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:35:04,083 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:35:04,290 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:35:04,489 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:35:26,531 | INFO | Input='add DSA' Intent=ADD_TODO Task='dsa' Due=None
+2026-09-22 17:39:21,653 | INFO | Input='add DSA task today' Intent=ADD_TODO Task='dsa task' Due='2026-09-22'
+2026-09-22 17:41:20,354 | INFO | Input='show my tasks' Intent=LIST_TODOS Task=None Due=None
+2026-09-22 17:42:20,944 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:42:27,690 | INFO | Input='show' Intent=LIST_TODOS Task=None Due=None
+2026-09-22 17:42:33,788 | INFO | Input='show my task' Intent=LIST_TODOS Task=None Due=None
+2026-09-22 17:42:45,255 | INFO | Input='complete complete nlp assignment' Intent=COMPLETE_TODO Task='complete nlp assignment' Due=None
+2026-09-22 17:43:38,340 | INFO | Input='show my tasks' Intent=LIST_TODOS Task=None Due=None
+2026-09-22 17:43:39,895 | INFO | Input='help' Intent=HELP Task=None Due=None
+2026-09-22 17:43:40,361 | INFO | Input='add study DSA tomorrow' Intent=ADD_TODO Task='study dsa' Due='2026-09-23'
+2026-09-22 17:43:40,794 | INFO | Input='show my tasks' Intent=LIST_TODOS Task=None Due=None
